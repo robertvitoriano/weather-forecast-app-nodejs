@@ -6,7 +6,7 @@ weatherForm.addEventListener('submit', (e) => {
     var localText = document.querySelector('.localSection');
     var forecastText = document.querySelector('.foreCastSection');
 
-    fetch('http://localhost:3000/weather?address=' + local.value).then((response) => {
+    fetch('/weather?address=' + local.value).then((response) => {
         
         response.json().then((data) => {
             console.log(data);
