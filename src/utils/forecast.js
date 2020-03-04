@@ -9,7 +9,7 @@ const forecast = (latitude, longitude, callback) => {
         } else if (body.error) {
             callback('Não foi possível encontrar o local', undefined)
         } else {
-            callback(undefined, body.daily.data[0].summary + ' Atualmente está ' + ((body.currently.temperature-32)/1.8).toFixed(1) + ' Graus. Há ' + body.currently.precipProbability+'% chance de chuva')
+            callback(undefined, body.daily.data[0].summary + ' Atualmente está ' + ((body.currently.temperature-32)/1.8).toFixed(1) + ' Graus. Há ' + body.currently.precipProbability+'% chance de chuva e é '+body.daily.summary+'.');
         }
     })
 }
