@@ -1,9 +1,8 @@
 body {
     color: #333333;
     font-family: arial;
-    max-width: 650px;
     margin: 0 auto;
-    padding: 0 16px;
+    width:100%;
 
     display: flex;
     flex-direction: column;
@@ -40,6 +39,12 @@ header a {
     text-decoration: none;
 }
 
+header{
+    background-image: url("./../img/nuvens.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
 .portrait {
     width: 250px;
 }
