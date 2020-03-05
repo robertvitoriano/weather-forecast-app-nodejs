@@ -52,10 +52,10 @@ header{
 
 @media(max-width:600px){
     .btn{
-        margin-top:10px;
+        margin-top:1em;
         display: block;
     }
     .nav-link{
-        margin-bottom: 10px;
+        margin-bottom: 1em;
     }
 }
