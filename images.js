@@ -1,0 +1,1 @@
+const googleSearchCredentials = require('./credentials/google-search.json');
