@@ -8,7 +8,7 @@ const imageSearch = require('./utils/imageSearch')
 const app = express()
 const port = process.env.PORT || 3000;
 
-// Define paths for Express config
+// Define paths for Express configg
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
