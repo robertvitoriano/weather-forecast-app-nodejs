@@ -15,16 +15,15 @@ body {
 .main-content {
 margin:0 auto;
 width:50%;
-flex-grow: 1;
+/* flex-grow: 1; */
 
 }
 
 footer {
     color: #888888;
     border-top: 1px solid #eeeeee;
-    padding: 16px 0;
+    padding: 10px 0;
     position:relative;
-    bottom:0;
     display: block;
 }
 .search-field{
