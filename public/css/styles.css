@@ -23,7 +23,7 @@ footer {
     color: #888888;
     border-top: 1px solid #eeeeee;
     padding: 10px 0;
-    position:relative;
+    position:absolute;
     bottom:0;
     display: block;
 }
